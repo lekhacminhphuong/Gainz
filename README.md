@@ -1,9 +1,9 @@
-# The Secret
+# GAINZ
 > Creator: Phuong Le, Eric Lin, Molly Li, Christopher Sofian, Samantha Chow
 >  |  Seattle, WA
 >  |  March,2019
 
-![Home Page 1](.public/img/home-page.png)
+![Home Page 1](./public/img/home-page.png)
 
 Click [me](https://gainz-info340.firebaseapp.com) to visit _The Secret_
 
