@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Secret
+> Creator: Phuong Le, Eric Lin, Molly Li, Christopher Sofian, Samantha Chow
+>  |  Seattle, WA
+>  |  March,2019
 
-## Available Scripts
+![Home Page 1](./img/home-page.png)
 
-In the project directory, you can run:
+Click [me](https://gainz-info340.firebaseapp.com) to visit _The Secret_
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Overview
+This website allows the user to search up a stock and save the searched stock to its portfolio. It also allows the user to select and view specific information about a stock.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+### Gainz's Functionalities
+- This website allows the user to signup based on a set of email and password.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- After signing up or signing in, the user will land on the home page.
 
-### `npm run build`
+- The nav bar at the top of the page allows the user to navigate the application with the links.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The stock search section allows the user to search up information about a stock if provided a valid ticker symbol.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- The index section allows the user to view the standardize index, such as the Dow Jones index, the Standard and Poor 500 index, and the Nasdaq index.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The portfolio section shows the information about the saved stock. If there are no saved stock, the portfolio section will display nothing.
 
-### `npm run eject`
+- After entering a valid ticker symbol, the page will render the information about the stock. The title of the page will be the ticker symbol, and below the title, there will be a stock chart that shows the year-to-date price movement of the stock. The stock statistic table shows all necessary information about that specific stock.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- The "add stock to portfolio button" allows the user to save the stock to the portfolio.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Once the stock is saved to the portfolio, the portfolio will show the price, the volume, the ticker symbol, the change percentage of the stock. The user and remove the stock anytime by simply clicking on the remove button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- If there is any stock saved in the portfolio, the report section will render and show at the bottom of the page.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- The report section allows the user to create his/her customized report. The user can use the dropdown menu to select and view the specific feature of a stock.
